@@ -31,6 +31,7 @@ class Bot(object):
         self.has_sent_init = False
         self.last_sent_spawn = 0
         self.last_update = 0
+        self.n_updates = 0
 
         # cell information
         self.ids = []  # list of ids (to get cell, query id in all_cells)
